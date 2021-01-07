@@ -1,0 +1,29 @@
+
+
+h1{
+                    color: rgb(65, 44, 226);
+}
+
+.photos img {
+                    width: 100%;
+}
+
+.photos {
+                    display:grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-column-gap: 20px;
+}
+
+body {
+                    margin: 0;
+                    font-family: "Laila", serif;
+}
+
+.header {
+                  padding: 0 45px 0 45px;
+                  background-color: rgb(255, 127, 127);  
+                  color: #fff;
+                  display: flex;
+                  align-items: center;
+                  flex-wrap: wrap;
+}
